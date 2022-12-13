@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="author" content="Alesya Zhitko">
+   <meta name="keywords" content="films, movie, film set, movie set">
+   <title>Your Movie</title>
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+   <link rel="stylesheet" type="text/css" href="style6.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+   <link type="image/x-icon" href="Logo.ico" rel="shortcut icon">
+   <link type="Image/x-icon" href="Logo.ico" rel="icon">
+</head>
+<body>
+   <header>
+      <nav class="container">
+         <a class="logo" href="my web-site.html" title="На главную"><img src="Logo.png"> </a>
+         <form action="" method="get" id="searchform">
+            <input type="text" placeholder="Поиск по сайту">
+            <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+         <ul id="menu">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Можно посмотреть ещё</a></li>
+            <li><a href="#">Об авторе</a></li>
+         </ul>
+      </nav>
+      <div class="navbar-toggle"><span></span></div>
+   </header>
+   <div class="container">
+      <h1>Фильмы, просмотренные на этой неделе</h1>
+      <div class="list_post">
+         <article id="post-1" class="post">
+            <div class="image_p"><a href=""><img src="batman.jpeg"></a></div>
+            <div class="content">
+               <h2 class="title_p">БЭТМЕН</h2>
+               <p>После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного
+                  возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна 
+                  в самые темные закоулки преступного мира, где он встречает Женщину-Кошку, Пингвина, Кармайна Фальконе и Загадочника. Теперь
+                  под прицелом оказывается сам Бэтмен, которому предстоит отличить друга от врага и восстановить справедливость во имя Готэма.
+                  <br>
+                  Мнения всегда разделяются, просмотр этого фильма не исключение. 
+                  <br>
+                  <b>Оценка фильма: 5/10</b></p>
+               <div class="but">
+                  <a class="link_p" href="">Читать далее</a>
+               </div>
+         </article>
+         <article id="post-2" class="post">
+            <div class="image_p"><a href=""><img src="Fall_(2022_film).jpg"></a></div>
+            <div class="content">
+               <h2 class="title_p">ВЫШКА</h2>
+               <p>Бекки всегда была экстремалом, но после гибели мужа она решила прекратить погоню за адреналином. 
+                  Ее ждет последнее восхождение — вместе с подругой она забирается на вершину радиомачты высотой более 600 метров, 
+                  чтобы развеять прах своего покойного супруга. Теперь девушкам предстоит вступить в борьбу со стихией в призрачной 
+                  надежде на спасение. 
+                  Я со своими друзьями посмотрела данный фильм. Мнения у нас разделились. Кому-то фильм очень понравился, кому-то пощекотал нервишки, остальным фильм не особо понравился.
+                  <br>
+                  <b>Оценка фильма: 6/10</b></p>
+               <div class="but">
+                  <a class="link_p" href="">Читать далее</a>
+               </div>
+         </article>
+      </div>
+      <aside>
+         <div class="poster">
+            <h3 class="poster_title">Последние записи</h3>
+            <ul class="poster_list">
+               <li>
+                  <div class="img_small"><a href=""><img src="batman.jpeg"></a></div>
+                  <h4 class="poster_p_title">Бэтмен</h4>
+               </li>
+               <li>
+                  <div class="img_small"><a href=""><img src="Fall_(2022_film).jpg"></a></div>
+                  <h4 class="poster_p_title">Вышка</h4>
+               </li>
+            </ul>
+         </div>
+         <div class="poster">
+            <h3 class="poster_title">Подписка на рассылку</h3>
+            <p>Отправьте свой email, чтобы быть в курсе новых событий самым первым!</p>
+         </div>
+         <form action="" method="post" id="subscribe">
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <button type="submit"><i class="fa fa-paper-plane-o"></i></button>
+         </form>
+      </aside>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footer" id="you"><span>Выбери свой фильм © 2022</span></div>
+         <div class="footer">
+            <div class="social">
+               <a title="Telegram" href="https://t.me/alzhitko" target="_blank" class="social"><img src="free-icon-telegram-739260.png"></a>
+               <a title="VK" href="https://vk.com/al.zhitko" target="_blank" class="social"><img src="free-icon-vk-2111828.png"></a>
+               <a title="Instagram" href="https://www.instagram.com/al.zhitko/" target="_blank" class="social"><img src="free-icon-instagram-1384031.png"></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+   <script>
+      $('.navbar-toggle').on('click', function () {
+         $('#menu').toggleClass('active');
+      });
+   </script>
+</body>
+</html>
